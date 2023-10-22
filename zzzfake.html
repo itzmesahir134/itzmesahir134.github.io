@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+   Enter your Name:
+   <input type="text" placeholder="enter your name" id="txtInputData">
+   <button onclick="displayName()">Click Me</button>
+   <p id="show_name">
+   </p>
+</body>
+<script>
+   function displayName() {
+      var originalName = document.getElementById("txtInputData").value;
+      document.getElementById("show_name").innerHTML = "Your Name is :" + originalName;
+   }
+</script>
+</html>

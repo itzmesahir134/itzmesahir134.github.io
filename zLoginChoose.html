@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+      background-image: url(bgbg.jpeg);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1f1821;
+  width:100%;
+  margin-top: -8.4;
+}
+
+
+
+li a {margin: 0;
+  padding: 0;
+  display: block;
+  color: #d161ed;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right:solid 2.5px #4f3a54;
+  border-bottom:solid 2.5px #4f3a54;
+  
+  
+}
+
+li a:hover:not(.active)  {
+        background-color: #4f3a54;
+        }
+        .active {
+        background-color: #4f3a54;
+        }
+
+li:last-child {
+  border-right: none;
+
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+<style>
+
+.zzz1 {
+  background-color: #1f1821;
+  border-color: #4f3a54;
+  border-style: solid;
+  border-width: 7.5px;
+  color: #d161ed;
+  font-weight: bold;
+  padding: 15px 140px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 150;
+  font-family: sans-serif;
+  font-size: 22px;
+  border-radius: 75px;
+}
+.zzz1:hover { 
+  background-color: #4f3a54;
+  border-color: #2b182e;
+}
+
+
+::placeholder {
+  color: #8b74747b;
+  font-weight:normal;
+}
+
+
+</style>
+</head>
+<body bgcolor="black">
+
+<ul>
+  <li><a href="zFirstChoose.html" style="float:left;width: 7.5%;font-family: sans-serif;font-weight: 800;border-left:solid 2.5px #4f3a54;">Home</a></li>
+
+  <li><a href="zFirstChoose.html" style="float:left;width:66.56%;font-family: sans-serif;font-weight: 800;border-left:solid 2.5px #1f1821;">Display Song Lists</a></li>
+
+  <li><a href="zFirstChoose.html" style="float:left;width: 7.5%;font-family: sans-serif;font-weight: 800;">Library</a></li>
+  
+  <li><a href="zFirstChoose.html" style="float:left;width: 7.5%;font-family: sans-serif;font-weight: 800;">Setting</a></li>
+
+  
+</ul>
+
+
+
+
+
+
+<form style="margin-left: 75px;">
+  <img src="formbg.png" style="width: 425px; height: 550px; margin-left: 275px;margin-top: 70px;position: absolute;border:10px solid #d161ed; border-radius: 98px;box-shadow: 0 0 0 10px #4f3a54;">
+  <img src="purplebar.jpg" style="position: relative;margin-left: 425px;margin-top: 115px; border:5px solid #d161ed; border-radius: 98px;box-shadow: 0 0 0 5px #4f3a54; "><br>
+  
+  <input type="text" id="loginname" class="zzz1" style="position: relative; margin-left: 338px; margin-top: 80px; width: 300px; height: 40px; padding: 0; text-align: center; font-size: 19px;" placeholder="Username"><br>
+
+  <input type="password" id="passwordid" class="zzz1" style="position: relative; margin-left: 338px; margin-top: 50px; width: 300px; height: 40px; padding: 0; text-align: center; font-size: 19px;" placeholder="Password"><br>
+
+  <input type="button" value="Login" onclick="displayName()" class="zzz1" style="margin-left: 320px;margin-top: 60px; position: relative;" ><br>
+  
+
+  <img src="M-boxlog.png" style="position: relative; width:300px;margin-left:350px;margin-top:-35px; ">
+
+  
+  <img src="go back.png" usemap="#goback" style="position: absolute;margin-left:175px;margin-top:-240px;width: 300px; border:5px solid #d161ed; border-radius: 98px;box-shadow: 0 0 0 5px #4f3a54;">
+
+  <map name="goback">
+    <area shape="rect" coords="0,0,300,300" alt="Go Back" href="zFirstChoose.html">
+  </map>
+
+<br>
+
+    <script type="text/javascript">
+    
+    
+
+      function displayName() {
+        var a = document.getElementById("loginname").value;
+        var b = document.getElementById("passwordid").value;
+       if (a=="PratikSirIsGreat" && b=="1234") {
+
+
+        window.open('xhome_page.html','_self');
+       } 
+   }
+    
+   function displayName() {
+        var a = document.getElementById("loginname").value;
+        var b = document.getElementById("passwordid").value;
+       if (a =="Sahir035" && b =="pass@123") {
+       
+
+        window.open('xhome_page.html','_self');
+       } 
+   }
+   function displayName() {
+        var a = document.getElementById("loginname").value;
+        var b = document.getElementById("passwordid").value;
+       if (a =="Smit014" && b =="pass@123") {
+       
+
+        window.open('xhome_page.html','_self');
+       } 
+   }
+
+
+      
+
+      </script>
+</form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
